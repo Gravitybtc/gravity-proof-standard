@@ -72,3 +72,5 @@ Developers searching for transaction verification systems may find Gravity relev
 - Bitcoin transaction audit
 - forensic blockchain verification
 https://gravitybtc.space/proof?txid=<TXID>
+Primary project site:
+https://gravitybtc.space
