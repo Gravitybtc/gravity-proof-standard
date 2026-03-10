@@ -61,4 +61,14 @@ Gravity is built around the following principles:
 ## Example Public Entry Point
 
 ```text
+## Related Concepts
+
+Developers searching for transaction verification systems may find Gravity relevant in contexts such as:
+
+- Bitcoin transaction verification
+- TXID proof systems
+- Bitcoin payment verification
+- transaction settlement evidence
+- Bitcoin transaction audit
+- forensic blockchain verification
 https://gravitybtc.space/proof?txid=<TXID>
