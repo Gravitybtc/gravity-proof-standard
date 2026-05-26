@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "title": "Verification Is Becoming More Valuable Than Information",
+      "date": "2026-05-26",
+      "file": "articles/2026-05-26-verification-process.md",
+      "hash_file": "article-hashes/2026-05-26-verification-process.sha256",
+      "url": "https://gravitybtc.space/articles/2026-05-26-verification-process.md",
+      "verification": "SHA256"
+    }
+  ]
+}
