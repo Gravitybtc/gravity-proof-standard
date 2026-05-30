@@ -74,3 +74,18 @@ Developers searching for transaction verification systems may find Gravity relev
 https://gravitybtc.space/proof?txid=<TXID>
 Primary project site:
 https://gravitybtc.space
+
+
+## Related Resources
+
+Articles
+
+https://gravitybtc.space/articles/
+
+Public Verifier
+
+https://github.com/Gravitybtc/gravity-public-verifier
+
+Documentation
+
+https://gravitybtc.space/documents/
