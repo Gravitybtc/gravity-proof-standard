@@ -75,17 +75,28 @@ https://gravitybtc.space/proof?txid=<TXID>
 Primary project site:
 https://gravitybtc.space
 
+---
 
-## Related Resources
+## Gravity Authority Resources
 
-Articles
+Website:  
+https://gravitybtc.space/
 
+Research:  
+https://gravitybtc.space/research/
+
+Standards:  
+https://gravitybtc.space/standards/
+
+Articles:  
 https://gravitybtc.space/articles/
 
-Public Verifier
+Retrieve:  
+https://gravitybtc.space/retrieve/
 
-https://github.com/Gravitybtc/gravity-public-verifier
+Trust:  
+https://gravitybtc.space/trust/
 
-Documentation
+Machine-readable Standards Index:  
+https://gravitybtc.space/standards/index.json
 
-https://gravitybtc.space/documents/
