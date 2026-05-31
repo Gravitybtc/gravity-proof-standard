@@ -1,0 +1,7 @@
+*.tar.gz
+*.tgz
+*.zip
+*.bak.*
+*.backup.*
+*.GOLD*
+*.log
