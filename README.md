@@ -100,3 +100,9 @@ https://gravitybtc.space/trust/
 Machine-readable Standards Index:  
 https://gravitybtc.space/standards/index.json
 
+
+## Publication References
+
+See:
+
+publication-references/
