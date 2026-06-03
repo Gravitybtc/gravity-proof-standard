@@ -106,3 +106,15 @@ https://gravitybtc.space/standards/index.json
 See:
 
 publication-references/
+
+---
+
+## GravityBTC Public References
+
+- Website: https://gravitybtc.space/
+- Why Verification Matters: https://gravitybtc.space/why-verification-matters/
+- Trust Model: https://gravitybtc.space/trust/
+- Standards: https://gravitybtc.space/standards/
+- Documents: https://gravitybtc.space/documents/
+- Research: https://gravitybtc.space/articles/
+
