@@ -1,16 +1,19 @@
 {
-  "publication_id":"PUB-20260615-WHY_WORKFLOW_GOVERNANCE_MATTERS",
-  "title":"Why Workflow Governance Matters",
-  "url":"https://gravitybtc.space/articles/2026-06-15-why-workflow-governance-matters.html",
-  "sha256":"c310aa5ed787f135458d70bdf047d3b796f049c199b042f3c49d803df48fb85c",
-  "publisher":"GravityBTC",
-  "publication_standard":"Gravity Publication Authority Pipeline v1.0",
-    "standards":[
+  "publication_id": "PUB-20260615-WHY_WORKFLOW_GOVERNANCE_MATTERS",
+  "title": "Why Workflow Governance Matters",
+  "url": "https://gravitybtc.space/articles/2026-06-15-why-workflow-governance-matters.html",
+  "sha256": "e9e55c5c938b5c5f400989250dd0e4de6d38c3e9d14445e615b6cab4dc570c5e",
+  "publisher": "GravityBTC",
+  "publication_standard": "Gravity Publication Authority Pipeline v1.0",
+  "standards": [
     "GRS-1",
     "GPS-1",
     "GVS-1",
     "GPIS-1"
   ],
-  "standards_index":"https://gravitybtc.space/standards/index.json",
-  "generated_at":"2026-06-15T19:30:13Z"
+  "standards_index": "https://gravitybtc.space/standards/index.json",
+  "generated_at": "2026-06-15T19:30:13Z",
+  "hash": "e9e55c5c938b5c5f400989250dd0e4de6d38c3e9d14445e615b6cab4dc570c5e",
+  "article_sha256": "e9e55c5c938b5c5f400989250dd0e4de6d38c3e9d14445e615b6cab4dc570c5e",
+  "article_url": "https://gravitybtc.space/articles/2026-06-15-why-workflow-governance-matters.html"
 }
