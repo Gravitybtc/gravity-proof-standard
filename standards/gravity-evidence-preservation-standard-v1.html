@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gravity Evidence Preservation Standard v1.0 | GravityBTC Standards</title>
+<meta name="description" content="GravityBTC canonical standard: Gravity Evidence Preservation Standard v1.0">
+<link rel="canonical" href="https://gravitybtc.space/standards/gravity-evidence-preservation-standard-v1.html">
+<link rel="stylesheet" href="/gravity-global-header.css">
+<link rel="stylesheet" href="/gravity-trust-layer.css">
+<link rel="stylesheet" href="/assets/gravity-refinement.css">
+<style>
+html,body{min-height:100vh}
+body{margin:0;padding:40px 48px;background:#090909;color:#f2f0ea;font-family:Inter,system-ui,sans-serif;line-height:1.75;display:flex;flex-direction:column}
+.gravity-global-brand{display:block;margin-bottom:22px;color:#f3efe6;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:.18em}
+.nav{display:flex;flex-wrap:wrap;gap:18px;margin:18px 0 54px;padding-bottom:18px;border-bottom:1px solid #2a2824}
+.nav a{color:#aaa49a;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.nav a:hover{color:#f2f0ea}
+.wrap{width:min(900px,calc(100% - 24px));margin:0 auto;padding:28px 0 140px}
+.kicker{color:#c8a96a;text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:700;margin-bottom:14px}
+h1{font-size:44px;line-height:1.05;letter-spacing:-.04em;margin:0 0 24px;color:#f2f0ea}
+pre{white-space:pre-wrap;color:#cfc6aa;font-size:16px;background:#111;border:1px solid #2a2824;padding:24px;border-radius:10px}
+.verify{margin-top:44px;border-top:1px solid #2a2824;padding-top:22px;color:#cfc6aa}
+.verify h2{color:#f2f0ea}
+.infra-footer{margin-top:auto;padding-top:28px;border-top:1px solid #2a2824;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#aaa49a;font-size:13px;letter-spacing:.04em}
+.infra-footer-links{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
+.infra-footer a{color:#aaa49a;text-decoration:none}
+.infra-footer a:hover{color:#f2f0ea}
+</style>
+<style id="gravity-header-lock-final">
+/* Gravity header lock final — one visual header for all live pages */
+body > .gravity-global-brand{
+  display:block!important;
+  position:static!important;
+  float:none!important;
+  clear:both!important;
+  margin:40px 48px 22px 48px!important;
+  padding:0!important;
+  color:#f3efe6!important;
+  text-decoration:none!important;
+  font-size:13px!important;
+  font-weight:700!important;
+  letter-spacing:.18em!important;
+  line-height:1.2!important;
+  text-align:left!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+}
+
+body > .nav{
+  display:flex!important;
+  flex-direction:row!important;
+  flex-wrap:wrap!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  gap:18px!important;
+  position:static!important;
+  float:none!important;
+  clear:both!important;
+  margin:18px 48px 54px 48px!important;
+  padding:0 0 18px 0!important;
+  border-bottom:1px solid #2a2824!important;
+  text-align:left!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+body > .nav a,
+body > .nav a:visited{
+  display:inline-block!important;
+  width:auto!important;
+  max-width:none!important;
+  color:#aaa49a!important;
+  text-decoration:none!important;
+  font-size:13px!important;
+  font-weight:600!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  line-height:1.35!important;
+  white-space:nowrap!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  padding:0!important;
+  margin:0!important;
+}
+
+body > .nav a:hover,
+body > .nav a:focus{
+  color:#f2f0ea!important;
+  text-decoration:none!important;
+}
+</style>
+</head>
+<body>
+<a class="gravity-global-brand" href="/">GRAVITYBTC</a>
+<div class="nav">
+<a href="/">Home</a>
+<a href="/case.html">Case</a>
+<a href="/cert/">Certification</a>
+<a href="/relay/">Relay</a>
+<a href="/retrieve/">Retrieve</a>
+<a href="/policy/">Operational Policy</a>
+<a href="/documents/">Documents</a>
+<a href="/articles/">Research</a>
+<a href="/why-verification-matters/">Why Verification Matters</a>
+<a href="/standards/">Standards</a>
+<a href="/api/">API</a>
+<a href="/about.html">About</a>
+<a href="/trust/">Trust</a>
+<a href="/help/">Help</a>
+<a href="/faq/">FAQ</a>
+<a href="/network-conditions/">Network Conditions</a>
+<a href="/support/">Support</a>
+</div>
+
+<main class="wrap">
+<div class="kicker">Gravity Standard</div>
+<h1>Gravity Evidence Preservation Standard v1.0</h1>
+<pre># Gravity Evidence Preservation Standard v1.0
+Standard ID: GEPS-1
+Status: Canonical
+Maintainer: GravityBTC
+
+## Purpose
+
+The Gravity Evidence Preservation Standard defines how digital evidence is preserved for later verification.
+
+Preserved evidence must include:
+
+- evidence_id
+- source description
+- received_at
+- preserved_at
+- SHA256 hash
+- preservation record
+- verification record
+- custody statement
+- retrieval method
+- status
+
+## Preservation Requirement
+
+Evidence preservation must separate:
+
+1. the artifact
+2. the hash
+3. the verification record
+4. the preservation event
+5. the retrieval path
+
+## Status Values
+
+- preserved
+- verified
+- superseded
+- unavailable
+- revoked
+
+## Conformance
+
+Evidence conforms to GEPS-1 when the required preservation fields, preservation requirements, and status designations defined by this standard are present and reviewable.
+
+## Authority
+
+This standard is issued and maintained by GravityBTC under the Gravity Standards Authority framework.
+
+</pre>
+
+<section class="verify">
+<h2>Standard Verification</h2>
+<p><strong>SHA256:</strong> 9830b616c1b9f6d78cea915ad99c391b38d78fdf00cc783e41f7395d449df89f</p>
+<p><strong>Verification Record:</strong> /standards/records/gravity-evidence-preservation-standard-v1.json</p>
+<p><strong>Status:</strong> Canonical</p>
+</section>
+</main>
+
+<footer class="infra-footer">
+<div>GravityBTC — Independent Verification for Bitcoin Records</div>
+<div class="infra-footer-links">
+<a href="/documents/">Documents</a>
+<a href="/about.html">About</a>
+<a href="/help/">Help</a>
+<a href="/faq/">FAQ</a>
+<a href="/support/">Support</a>
+<a href="/articles/">Research</a>
+<a href="/standards/">Standards</a>
+<a href="/retrieve/">Record Verification</a>
+<a href="/policy/">Operational Policy</a>
+</div>
+</footer>
+</body>
+</html>
