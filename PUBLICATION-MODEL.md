@@ -24,7 +24,7 @@ GitHub is used for transparency, source control, public review, and long-term re
 - `publication-references/` — Public publication reference records.
 - `verification-records/` — JSON verification records.
 - `examples/` — Public workflow examples.
-- `archive/legacy/archive/legacy/example-bundle/` — Legacy proof bundle example.
+- `archive/legacy/example-bundle/` — Legacy proof bundle example.
 
 ## Authority Rule
 
