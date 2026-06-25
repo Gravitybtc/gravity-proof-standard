@@ -23,7 +23,7 @@ A valid Gravity proof bundle should support:
 ## Example Bundle Layout
 
 ```text
-example-bundle/
+archive/legacy/example-bundle/
 ├── artifact.json
 ├── analysis.json
 ├── hash_manifest.txt

@@ -23,7 +23,8 @@ GitHub is used for transparency, source control, public review, and long-term re
 - `article-hashes/` — SHA-256 hashes for published articles.
 - `publication-references/` — Public publication reference records.
 - `verification-records/` — JSON verification records.
-- `example-bundle/` — Example verification bundle material.
+- `examples/` — Public workflow examples.
+- `archive/legacy/archive/legacy/example-bundle/` — Legacy proof bundle example.
 
 ## Authority Rule
 

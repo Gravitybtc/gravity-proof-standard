@@ -17,7 +17,8 @@ https://gravitybtc.space/
 - `article-hashes/` — SHA-256 hashes for published articles.
 - `publication-references/` — Publication reference records.
 - `verification-records/` — Verification records for public materials.
-- `example-bundle/` — Example proof bundle material.
+- `examples/` — Public workflow examples.
+- `archive/legacy/archive/legacy/example-bundle/` — Legacy proof bundle example.
 - `PUBLICATION-MODEL.md` — Explains the relationship between the website and this repository.
 
 ## Published Standards

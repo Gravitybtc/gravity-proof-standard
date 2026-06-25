@@ -17,7 +17,8 @@ This repository mirrors selected public GravityBTC materials for version control
 
 ## Examples
 
-- `example-bundle/` — Example verification bundle material.
+- `examples/` — Public workflow examples.
+- `archive/legacy/archive/legacy/example-bundle/` — Legacy proof bundle example.
 
 ## Canonical Site
 
