@@ -1,120 +1,38 @@
-# Gravity Bitcoin Proof Standard
+# GravityBTC Proof Standard
 
-Deterministic verification and forensic certification for Bitcoin transactions.
+GravityBTC is Bitcoin-native operational proof infrastructure built on the Bitcoin protocol. It uses Bitcoin's consensus and transaction layer as a public settlement foundation to produce structured, independently verifiable operational records for long-term evidence continuity.
 
-Gravity is a Bitcoin proof system that generates reproducible certification bundles for a submitted transaction ID (TXID). The system is designed to produce deterministic transaction evidence, artifact hashes, and verification metadata suitable for independent validation by auditors, exchanges, investigators, and other professional counterparties.
+This repository contains public GravityBTC standards, articles, hashes, verification records, and publication references.
 
-## What Gravity Does
+## Public Website
 
-Gravity provides a TXID-to-proof workflow:
+Canonical public site:
 
-**Bitcoin TXID → deterministic proof bundle → independent verification**
-
-A submitted Bitcoin transaction ID can be processed into a certification bundle containing transaction evidence, analysis metadata, artifact hashes, and verification material.
-
-## Core Capabilities
-
-- TXID-based Bitcoin transaction verification
-- Deterministic proof bundle generation
-- Artifact hashing and manifest generation
-- Independent verification workflow
-- Forensic transaction certification
-- Public verification surface for generated bundles
-
-## Intended Use Cases
-
-Gravity is designed for higher-assurance Bitcoin transaction evidence, including:
-
-- transaction settlement verification
-- payment proof
-- audit support
-- forensic review
-- dispute support
-- institutional recordkeeping
-- internal compliance review
-
-## Design Principles
-
-Gravity is built around the following principles:
-
-1. **Determinism**  
-   Given the same transaction evidence and certification inputs, the system should produce a reproducible proof structure.
-
-2. **Independent Verifiability**  
-   A third party should be able to inspect the bundle contents and verify the included artifacts without relying on hidden interpretation.
-
-3. **Hash-Based Integrity**  
-   Critical bundle components are represented by cryptographic hashes so integrity can be checked independently.
-
-4. **Operational Separation**  
-   Public proof delivery and internal certification operations can remain separated while preserving verification value.
-
-## Example Workflow
-
-1. Submit a Bitcoin TXID
-2. Gravity analyzes the transaction record
-3. Gravity generates a certification bundle
-4. Bundle artifacts are hashed and recorded
-5. Verification materials are returned to the requester
-6. A third party can review and validate the bundle contents
-
-## Example Public Entry Point
-
-```text
-## Related Concepts
-
-Developers searching for transaction verification systems may find Gravity relevant in contexts such as:
-
-- Bitcoin transaction verification
-- TXID proof systems
-- Bitcoin payment verification
-- transaction settlement evidence
-- Bitcoin transaction audit
-- forensic blockchain verification
-https://gravitybtc.space/proof?txid=<TXID>
-Primary project site:
-https://gravitybtc.space
-
----
-
-## Gravity Authority Resources
-
-Website:  
 https://gravitybtc.space/
 
-Research:  
-https://gravitybtc.space/research/
+## Repository Contents
 
-Standards:  
-https://gravitybtc.space/standards/
+- `standards/` — Released GravityBTC standards, hashes, and verification records.
+- `articles/` — Published GravityBTC research and explanatory articles.
+- `article-hashes/` — SHA-256 hashes for published articles.
+- `publication-references/` — Publication reference records.
+- `verification-records/` — Verification records for public materials.
+- `example-bundle/` — Example proof bundle material.
+- `PUBLICATION-MODEL.md` — Explains the relationship between the website and this repository.
 
-Articles:  
-https://gravitybtc.space/articles/
+## Published Standards
 
-Retrieve:  
-https://gravitybtc.space/retrieve/
+- Gravity Evidence Preservation Standard v1.0 (GEPS-1)
+- Gravity Publication Integrity Standard v1.0 (GPIS-1)
 
-Trust:  
-https://gravitybtc.space/trust/
+## Trust Model
 
-Machine-readable Standards Index:  
-https://gravitybtc.space/standards/index.json
+GravityBTC does not issue its own token or operate a proprietary blockchain. It builds on Bitcoin's public consensus and transaction infrastructure to produce independently verifiable operational records.
 
+## Authority
 
-## Publication References
+The canonical public reading surface is:
 
-See:
+https://gravitybtc.space/
 
-publication-references/
-
----
-
-## GravityBTC Public References
-
-- Website: https://gravitybtc.space/
-- Why Verification Matters: https://gravitybtc.space/why-verification-matters/
-- Trust Model: https://gravitybtc.space/trust/
-- Standards: https://gravitybtc.space/standards/
-- Documents: https://gravitybtc.space/documents/
-- Research: https://gravitybtc.space/articles/
-
+This GitHub repository is the version-controlled public mirror for selected released standards, publications, hashes, and verification records.
